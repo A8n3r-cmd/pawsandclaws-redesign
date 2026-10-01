@@ -1,0 +1,202 @@
+<!-- Header -->
+    <header class="sticky top-0 z-50 w-full bg-white/95 backdrop-blur shadow-sm">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <a href="index.html" class="flex items-center gap-3" aria-label="Paws and Claws home">
+          <img src="images/cropped-logo_PC_3ri4i3h8.jpg" alt="Paws and Claws Kennels Port Douglas" class="h-14 w-auto" />
+        </a>
+
+        <nav class="hidden items-center gap-6 text-sm font-medium text-gray-700 md:flex lg:gap-8">
+          <a href="index.html" class="hover:text-paw-600">Home</a>
+          <a href="index.html#about" class="hover:text-paw-600">About</a>
+          <div class="group relative">
+            <button class="inline-flex items-center gap-1 hover:text-paw-600" aria-haspopup="true" aria-expanded="false" type="button">
+              AGM
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <div class="absolute left-0 top-full z-50 hidden w-56 overflow-hidden rounded-2xl bg-white py-2 shadow-lg ring-1 ring-gray-100 group-hover:block group-focus-within:block">
+              <a href="annual-general-meetings.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Annual General Meetings</a>
+              <a href="nomination-form.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Nomination form</a>
+              <a href="proxy-form.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Proxy form</a>
+            </div>
+          </div>
+          <div class="group relative">
+            <button class="inline-flex items-center gap-1 hover:text-paw-600" aria-haspopup="true" aria-expanded="false" type="button">
+              Services
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            <div class="absolute left-0 top-full z-50 hidden w-56 overflow-hidden rounded-2xl bg-white py-2 shadow-lg ring-1 ring-gray-100 group-hover:block group-focus-within:block">
+              <a href="adoption.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Adopt</a>
+              <a href="boarding.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Boarding</a>
+              <a href="cattery.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Cattery</a>
+              <a href="volunteer.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Volunteer</a>
+              <a href="charity-shop.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Charity Shop</a>
+              <a href="surrender.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Surrender</a>
+            </div>
+          </div>
+          <a href="donate.html" class="rounded-full bg-paw-600 px-5 py-2.5 text-white transition hover:bg-paw-700">Donate</a>
+        </nav>
+
+        <button id="menu-btn" class="rounded-lg p-2 text-gray-700 md:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+      <div id="mobile-menu" class="hidden border-t bg-white px-4 py-4 md:hidden">
+        <nav class="flex flex-col gap-2 text-sm font-medium text-gray-700" aria-label="Mobile menu">
+          <a href="index.html" class="rounded-lg px-3 py-2 hover:bg-paw-50 hover:text-paw-600">Home</a>
+          <a href="index.html#about" class="rounded-lg px-3 py-2 hover:bg-paw-50 hover:text-paw-600">About</a>
+          <p class="mt-2 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-gray-500">AGM</p>
+          <a href="annual-general-meetings.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Annual General Meetings</a>
+          <a href="nomination-form.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Nomination form</a>
+          <a href="proxy-form.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Proxy form</a>
+          <p class="mt-2 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-gray-500">Services</p>
+          <a href="adoption.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Adopt</a>
+          <a href="boarding.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Boarding</a>
+          <a href="cattery.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Cattery</a>
+          <a href="volunteer.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Volunteer</a>
+          <a href="charity-shop.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Charity Shop</a>
+          <a href="surrender.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Surrender</a>
+          <a href="donate.html" class="mt-2 rounded-lg bg-paw-600 px-3 py-2 text-center text-white hover:bg-paw-700">Donate</a>
+        </nav>
+      </div>
+    </header>
+
+<!-- Hero -->
+    <section class="relative min-h-[60vh] bg-paw-900 py-24">
+      <div class="mx-auto flex min-h-[60vh] max-w-7xl flex-col justify-center px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl text-white">
+          <p class="mb-4 text-sm font-semibold uppercase tracking-widest text-paw-100">AGM</p>
+          <h1 class="text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">Annual General Meetings</h1>
+          <p class="mt-6 text-lg leading-relaxed text-paw-100 sm:text-xl">Nominations are open for the 2025 &ndash; 2026 board.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section class="py-20 sm:py-24">
+      <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <p class="text-lg leading-relaxed text-gray-700">The committee of the Homeless Animal Society and Boarding Kennels Inc. advises that the 2025 Annual General Meeting has been called and is now inviting nominations to fill the board positions for the 2025 &ndash; 2026 year.</p>
+        <p class="mt-4 leading-relaxed text-gray-600">People of all backgrounds and skills sets are invited to apply to assist with the committee requirements of this long running and respected organisation.</p>
+        <p class="mt-4 leading-relaxed text-gray-600">If you believe that you would have the skill sets to assist with committee operations and are not a disqualified person we invite you to apply.</p>
+
+        <div class="mt-10 grid gap-4 sm:grid-cols-3">
+          <a href="https://pawsandclaws.org.au/wp-content/uploads/2025/11/AGM_Agenda-2025.pdf" target="_blank" rel="noopener" class="rounded-full bg-paw-600 px-5 py-3 text-center font-semibold text-white transition hover:bg-paw-700">Download Agenda</a>
+          <a href="https://pawsandclaws.org.au/wp-content/uploads/2025/11/AGM-Proxy-Form2025.pdf" target="_blank" rel="noopener" class="rounded-full bg-paw-600 px-5 py-3 text-center font-semibold text-white transition hover:bg-paw-700">Download Proxy Form</a>
+          <a href="https://pawsandclaws.org.au/wp-content/uploads/2025/11/AGM-Committee-Nomination-Form-2025.pdf" target="_blank" rel="noopener" class="rounded-full bg-paw-600 px-5 py-3 text-center font-semibold text-white transition hover:bg-paw-700">Download Nomination Form</a>
+        </div>
+
+        <p class="mt-10 text-sm text-gray-500">Last modified: November 15, 2025</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-12 text-gray-300">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="sm:col-span-2">
+            <img src="images/cropped-logo_PC_3ri4i3h8.jpg" alt="Paws and Claws" class="mb-4 h-16 w-auto rounded-xl bg-white p-2" />
+            <p class="max-w-sm leading-relaxed">A non-profit, no-kill animal shelter rescuing and rehoming dogs and cats in the Douglas Shire.</p>
+          </div>
+          <div>
+            <h4 class="mb-4 font-bold text-white">Quick links</h4>
+            <ul class="grid grid-cols-2 gap-2 text-sm">
+              <li><a href="index.html" class="hover:text-paw-500">Home</a></li>
+              <li><a href="adoption.html" class="hover:text-paw-500">Adopt</a></li>
+              <li><a href="boarding.html" class="hover:text-paw-500">Boarding</a></li>
+              <li><a href="cattery.html" class="hover:text-paw-500">Cattery</a></li>
+              <li><a href="volunteer.html" class="hover:text-paw-500">Volunteer</a></li>
+              <li><a href="charity-shop.html" class="hover:text-paw-500">Charity Shop</a></li>
+              <li><a href="surrender.html" class="hover:text-paw-500">Surrender</a></li>
+              <li><a href="donate.html" class="hover:text-paw-500">Donate</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="mb-4 font-bold text-white">Contact</h4>
+            <ul class="space-y-2 text-sm">
+              <li><a href="tel:0740985721" class="hover:text-paw-500">07 4098 5721</a></li>
+              <li><a href="mailto:reception@pawsandclaws.org.au" class="hover:text-paw-500">reception@pawsandclaws.org.au</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-8 flex flex-col items-center justify-between border-t border-gray-800 pt-8 sm:flex-row">
+          <p class="text-sm">&copy; 2026 Paws and Claws Animal Shelter. All rights reserved.</p>
+          <div class="mt-4 flex gap-4 sm:mt-0">
+            <a href="https://www.facebook.com/Pawsinport" target="_blank" rel="noopener" aria-label="Facebook" class="rounded-full bg-gray-800 p-2.5 text-white transition hover:bg-paw-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/pawsinport" target="_blank" rel="noopener" aria-label="Instagram" class="rounded-full bg-gray-800 p-2.5 text-white transition hover:bg-paw-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menuBtn = document.getElementById('menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      menuBtn.addEventListener('click', () => {
+        const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+        menuBtn.setAttribute('aria-expanded', String(!expanded));
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+  <script>
+  // Animated rehoming counters
+  const counters = document.querySelectorAll('[data-count]');
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const target = parseInt(entry.target.dataset.count, 10);
+        const duration = 1500;
+        const start = performance.now();
+        const step = (now) => {
+          const progress = Math.min((now - start) / duration, 1);
+          entry.target.textContent = Math.floor(progress * target);
+          if (progress < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  counters.forEach((c) => counterObserver.observe(c));
+
+  // Instagram-style carousel
+  const carousel = document.getElementById('ig-carousel');
+  if (carousel) {
+    const slides = carousel.children;
+    const total = slides.length;
+    const dotsContainer = document.getElementById('ig-dots');
+    for (let i = 0; i < total; i++) {
+      const dot = document.createElement('button');
+      dot.className = 'h-2.5 w-2.5 rounded-full bg-white/70 transition';
+      dot.setAttribute('aria-label', 'Slide ' + (i + 1));
+      dotsContainer.appendChild(dot);
+    }
+    const dots = dotsContainer.children;
+    let current = 0;
+    const updateDots = () => {
+      for (let i = 0; i < total; i++) {
+        dots[i].classList.toggle('bg-white', i === current);
+        dots[i].classList.toggle('bg-white/70', i !== current);
+      }
+    };
+    setInterval(() => {
+      current = (current + 1) % total;
+      carousel.style.transform = 'translateX(-' + (current * 100 / total) + '%)';
+      updateDots();
+    }, 4000);
+    updateDots();
+  }
+</script>
