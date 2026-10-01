@@ -1,0 +1,7 @@
+
+.wrangler/
+# Generated adoptions and pet pages are built by build-animals.py
+.DS_Store
+/pet/
+/adoptions/
+__pycache__/

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "misty",
+    "name": "Misty",
+    "slug": "misty",
+    "species": "cat",
+    "sex": "Girl",
+    "dob": "27/07/25",
+    "status": "available",
+    "photo": "images/Screenshot-2022-12-28-at-22.14.52.png",
+    "description": "Misty is a curious and affectionate kitten looking for a forever home. She loves to play and curl up in a sunny spot."
+  },
+  {
+    "id": "maya",
+    "name": "Maya",
+    "slug": "maya",
+    "species": "cat",
+    "sex": "Girl",
+    "dob": "7/7/23",
+    "status": "available",
+    "photo": "images/Screenshot-2022-12-28-at-22.14.52.png",
+    "description": "Maya is a calm and loving young cat who enjoys quiet company and gentle pats."
+  },
+  {
+    "id": "ember",
+    "name": "Ember",
+    "slug": "ember",
+    "species": "cat",
+    "sex": "Girl",
+    "dob": "07/05/2026",
+    "status": "available",
+    "photo": "images/Screenshot-2022-12-28-at-22.14.52.png",
+    "description": "Ember is a friendly and energetic kitten who is always ready for a play session."
+  },
+  {
+    "id": "blaze",
+    "name": "Blaze",
+    "slug": "blaze",
+    "species": "cat",
+    "sex": "Girl",
+    "dob": "07/05/2026",
+    "status": "available",
+    "photo": "images/Screenshot-2022-12-28-at-22.14.52.png",
+    "description": "Blaze is a sweet and social kitten who gets along well with people and other cats."
+  },
+  {
+    "id": "mazie",
+    "name": "Mazie",
+    "slug": "mazie",
+    "species": "cat",
+    "sex": "Girl",
+    "dob": "24/04/26",
+    "status": "available",
+    "photo": "images/Screenshot-2022-12-28-at-22.14.52.png",
+    "description": "Mazie is a sweet little girl with a calm, gentle nature. She loves nothing more than finding a cozy spot for a nap and watching the world go by. When she's awake, she enjoys a cuddle and some quiet company, making her the perfect companion for someone looking for a relaxed kitten."
+  }
+]
