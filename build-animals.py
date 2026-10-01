@@ -103,9 +103,11 @@ if 'Adoptable pets' not in base_header:
 for path in Path('.').glob('*.html'):
     content = path.read_text()
     content = re.sub(r'<header class="sticky.*?</header>', base_header, content, flags=re.DOTALL, count=1)
+    content = re.sub(r'<!-- Footer -->.*?</body>', base_footer, content, flags=re.DOTALL, count=1)
     content = content.replace('https://pawsandclaws.org.au/adoptions/', 'adoptions/')
+    content = content.replace('href="adoption.html"', 'href="adoptions/"')
     path.write_text(content)
-    print(f'Updated header and links: {path.name}')
+    print(f'Updated header, footer and links: {path.name}')
 
 def build_page_header(title, desc):
     h = base_header.replace('<title>Paws and Claws Animal Shelter | Port Douglas</title>', f'<title>{title}</title>', 1)

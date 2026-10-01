@@ -6,3 +6,6 @@
 /adoptions/
 __pycache__/
 node_modules/
+
+# Environment variables
+.env

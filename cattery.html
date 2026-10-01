@@ -34,6 +34,18 @@
     <!-- Header -->
     <!-- Header -->
     <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
     <header class="sticky top-0 z-50 w-full bg-white/95 backdrop-blur shadow-sm">
       <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <a href="index.html" class="flex items-center gap-3" aria-label="Paws and Claws home">
@@ -65,7 +77,7 @@
             </button>
             <div class="absolute left-0 top-full z-50 hidden w-56 overflow-hidden rounded-2xl bg-white py-2 shadow-lg ring-1 ring-gray-100 group-hover:block group-focus-within:block">
               <a href="adoptions/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Adoptable pets</a>
-              <a href="adoption.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Adopt</a>
+              <a href="adoptions/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Adopt</a>
               <a href="boarding.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Boarding</a>
               <a href="cattery.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Cattery</a>
               <a href="volunteer.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-paw-50 hover:text-paw-600">Volunteer</a>
@@ -93,7 +105,7 @@
           <a href="proxy-form.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Proxy form</a>
           <p class="mt-2 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-gray-500">Services</p>
           <a href="adoptions/" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Adoptable pets</a>
-          <a href="adoption.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Adopt</a>
+          <a href="adoptions/" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Adopt</a>
           <a href="boarding.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Boarding</a>
           <a href="cattery.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Cattery</a>
           <a href="volunteer.html" class="rounded-lg px-3 py-2 pl-6 hover:bg-paw-50 hover:text-paw-600">Volunteer</a>
@@ -103,6 +115,30 @@
         </nav>
       </div>
     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -153,7 +189,7 @@
       </div>
     </section>
 
-<!-- Footer -->
+    <!-- Footer -->
     <footer class="bg-gray-900 py-12 text-gray-300">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -165,7 +201,7 @@
             <h4 class="mb-4 font-bold text-white">Quick links</h4>
             <ul class="grid grid-cols-2 gap-2 text-sm">
               <li><a href="index.html" class="hover:text-paw-500">Home</a></li>
-              <li><a href="adoption.html" class="hover:text-paw-500">Adopt</a></li>
+              <li><a href="adoptions/" class="hover:text-paw-500">Adopt</a></li>
               <li><a href="boarding.html" class="hover:text-paw-500">Boarding</a></li>
               <li><a href="cattery.html" class="hover:text-paw-500">Cattery</a></li>
               <li><a href="volunteer.html" class="hover:text-paw-500">Volunteer</a></li>
@@ -209,5 +245,54 @@
         mobileMenu.classList.toggle('hidden');
       });
     </script>
-  </body>
+  <script>
+  // Animated rehoming counters
+  const counters = document.querySelectorAll('[data-count]');
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const target = parseInt(entry.target.dataset.count, 10);
+        const duration = 2250;
+        const start = performance.now();
+        const step = (now) => {
+          const progress = Math.min((now - start) / duration, 1);
+          entry.target.textContent = Math.floor(progress * target);
+          if (progress < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  counters.forEach((c) => counterObserver.observe(c));
+
+  // Instagram-style carousel
+  const carousel = document.getElementById('ig-carousel');
+  if (carousel) {
+    const slides = carousel.children;
+    const total = slides.length;
+    const dotsContainer = document.getElementById('ig-dots');
+    for (let i = 0; i < total; i++) {
+      const dot = document.createElement('button');
+      dot.className = 'h-2.5 w-2.5 rounded-full bg-white/70 transition';
+      dot.setAttribute('aria-label', 'Slide ' + (i + 1));
+      dotsContainer.appendChild(dot);
+    }
+    const dots = dotsContainer.children;
+    let current = 0;
+    const updateDots = () => {
+      for (let i = 0; i < total; i++) {
+        dots[i].classList.toggle('bg-white', i === current);
+        dots[i].classList.toggle('bg-white/70', i !== current);
+      }
+    };
+    setInterval(() => {
+      current = (current + 1) % total;
+      carousel.style.transform = 'translateX(-' + (current * 100 / total) + '%)';
+      updateDots();
+    }, 4000);
+    updateDots();
+  }
+</script>
+
 </html>
