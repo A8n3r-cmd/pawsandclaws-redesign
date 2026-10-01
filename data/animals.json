@@ -7,8 +7,8 @@
     "sex": "Girl",
     "dob": "27/07/25",
     "status": "available",
-    "photo": "images/Screenshot-2022-12-28-at-22.14.52.png",
-    "description": "Misty is a curious and affectionate kitten looking for a forever home. She loves to play and curl up in a sunny spot."
+    "photo": "images/misty.jpeg",
+    "description": "Misty is a beautiful girl with a big personality! She absolutely loves attention and isn\u2019t shy about asking for it, she\u2019ll happily let you know when she\u2019s ready for some pats or cuddles. When she\u2019s not soaking up all the affection, you\u2019ll usually find her curled up enjoying a cozy snooze. Misty is a sweet, affectionate companion who loves being around her people."
   },
   {
     "id": "maya",
@@ -18,8 +18,8 @@
     "sex": "Girl",
     "dob": "7/7/23",
     "status": "available",
-    "photo": "images/Screenshot-2022-12-28-at-22.14.52.png",
-    "description": "Maya is a calm and loving young cat who enjoys quiet company and gentle pats."
+    "photo": "images/maya.jpeg",
+    "description": "Maya is a gentle girl who is still finding her confidence. She can be quite shy and prefers to watch the world from up high, especially around other cats, but she absolutely adores human affection. Once you sit down with her, she\u2019ll happily soak up all the cuddles and attention you can give. With a little patience, love, and a quiet home, Maya is sure to blossom into a wonderful companion."
   },
   {
     "id": "ember",
@@ -29,8 +29,8 @@
     "sex": "Girl",
     "dob": "07/05/2026",
     "status": "available",
-    "photo": "images/Screenshot-2022-12-28-at-22.14.52.png",
-    "description": "Ember is a friendly and energetic kitten who is always ready for a play session."
+    "photo": "images/ember.jpeg",
+    "description": "Ember is a calm and gentle girl who prefers to take things at her own pace. She may be shy at first, but once she feels safe, she\u2019s a lovely companion who enjoys quiet company and a peaceful environment."
   },
   {
     "id": "blaze",
@@ -40,8 +40,8 @@
     "sex": "Girl",
     "dob": "07/05/2026",
     "status": "available",
-    "photo": "images/Screenshot-2022-12-28-at-22.14.52.png",
-    "description": "Blaze is a sweet and social kitten who gets along well with people and other cats."
+    "photo": "images/blaze.jpeg",
+    "description": "Blaze is a sweet, quiet girl who can be a little shy when meeting new people. With a little patience and kindness, she begins to relax and show her gentle, affectionate nature."
   },
   {
     "id": "mazie",
@@ -51,7 +51,128 @@
     "sex": "Girl",
     "dob": "24/04/26",
     "status": "available",
-    "photo": "images/Screenshot-2022-12-28-at-22.14.52.png",
-    "description": "Mazie is a sweet little girl with a calm, gentle nature. She loves nothing more than finding a cozy spot for a nap and watching the world go by. When she's awake, she enjoys a cuddle and some quiet company, making her the perfect companion for someone looking for a relaxed kitten."
+    "photo": "images/mazie.jpeg",
+    "description": "Mazie is a sweet little girl with a calm, gentle nature. She loves nothing more than finding a cozy spot for a nap and watching the world go by. When she\u2019s awake, she enjoys a cuddle and some quiet company, making her the perfect companion for someone looking for a relaxed kitten."
+  },
+  {
+    "id": "daisy",
+    "name": "Daisy",
+    "slug": "daisy",
+    "species": "dog",
+    "sex": "Girl",
+    "dob": "16/09/24",
+    "status": "available",
+    "photo": "images/daisy.jpeg",
+    "description": "Daisy is a friendly and easy-going Neo Mastiff x Wolfhound girl with a lovely gentle personality. While she may be a big dog, she\u2019s a true couch companion who enjoys relaxing and soaking up attention from her favourite people. Daisy is affectionate, loyal, and ready to become a cherished member of her new family."
+  },
+  {
+    "id": "molly",
+    "name": "Molly",
+    "slug": "molly",
+    "species": "dog",
+    "sex": "",
+    "dob": "",
+    "status": "available",
+    "photo": "images/molly.jpeg",
+    "description": "Molly is a sweet and affectionate Neo Mastiff x Wolfhound girl who loves spending time with her people. Gentle and friendly, she\u2019s happiest when she\u2019s by your side, whether that\u2019s joining you for a stroll or stretching out on the couch for a cuddle. Molly has a calm nature and a heart full of love to share."
+  },
+  {
+    "id": "nu-gee",
+    "name": "Nu-Gee",
+    "slug": "nu-gee",
+    "species": "dog",
+    "sex": "",
+    "dob": "",
+    "status": "available",
+    "photo": "images/nu-gee.jpeg",
+    "description": "Nugee is a gentle boy who can be a little shy when meeting new people, but with a bit of patience, his sweet personality quickly shines through. Once he feels comfortable, he absolutely loves attention and enjoys spending time with his favourite people. He forms strong bonds with those he trusts and is a rewarding companion for someone willing to give him the time he needs to settle in. Behind his quiet nature is a loving boy just waiting to share his affection."
+  },
+  {
+    "id": "love",
+    "name": "Guv",
+    "slug": "love",
+    "species": "dog",
+    "sex": "Boy",
+    "dob": "10/02/25",
+    "status": "available",
+    "photo": "images/love.jpeg",
+    "description": "Guv is a big, lovable goofball with a heart as big as his personality. Friendly, playful, and always ready for fun, he loves spending time with people and making new friends wherever he goes. Whether he\u2019s chasing a toy, playing a game, or simply clowning around to make you smile, Love brings joy and laughter wherever he goes. If you\u2019re looking for a happy, affectionate companion who loves to play, Love could be the perfect match for you."
+  },
+  {
+    "id": "riot",
+    "name": "Riot",
+    "slug": "riot",
+    "species": "dog",
+    "sex": "Female",
+    "dob": "30/04/2020",
+    "status": "available",
+    "photo": "images/riot.jpg",
+    "description": "Riot is a vocal, affectionate girl with a unique personality that makes her stand out. She enjoys lounging around and can be a bit of a couch potato, but she still loves getting out for adventures and exploring with her people. Riot is full of character and loves being close to those around her."
+  },
+  {
+    "id": "kevin",
+    "name": "Kevin",
+    "slug": "kevin",
+    "species": "dog",
+    "sex": "Male",
+    "dob": "17/08/25",
+    "status": "available",
+    "photo": "images/kevin.jpeg",
+    "description": "Kevin is an outgoing and friendly dog who absolutely thrives on attention. He loves meeting new people and is always eager to say hello, whether you have two legs or four. Confident and social, Kevin enjoys being part of the action and will happily soak up pats, cuddles, and any interaction he can get."
+  },
+  {
+    "id": "cali",
+    "name": "Cali",
+    "slug": "cali",
+    "species": "dog",
+    "sex": "",
+    "dob": "",
+    "status": "available",
+    "photo": "images/cali.jpeg",
+    "description": "Cali is a 5-year-old Shar-Pei cross with the gentlest, quietest nature. She\u2019s incredibly sweet, calm, and affectionate, and she absolutely loves going for walks. Cali enjoys taking life at a relaxed pace and is happiest spending time with her people, soaking up attention and companionship. A truly lovely girl with a soft soul."
+  },
+  {
+    "id": "mags",
+    "name": "Mags",
+    "slug": "mags",
+    "species": "cat",
+    "sex": "",
+    "dob": "",
+    "status": "available",
+    "photo": "images/mags.jpeg",
+    "description": "Mags is a female kitten with a curious, people-oriented personality. She loves exploring her surroundings and is always eager to be involved in whatever\u2019s going on. Affectionate, confident, and social, Mags thrives on human interaction and would be a great fit for a home that enjoys an engaged, playful companion."
+  },
+  {
+    "id": "ally",
+    "name": "Ally",
+    "slug": "ally",
+    "species": "cat",
+    "sex": "Girl",
+    "dob": "02/9/25",
+    "status": "available",
+    "photo": "images/ally.jpeg",
+    "description": "Ally is a very active girl who absolutely loves attention! She knows what she wants and isn\u2019t afraid to let you know when it\u2019s cuddle time. Ally can be a little selfish with her affection and would much rather have all the attention to herself! She\u2019s a fun, confident girl with plenty of personality and would love a home where she can be the centre of attention."
+  },
+  {
+    "id": "nova",
+    "name": "Nova (in foster care)",
+    "slug": "nova",
+    "species": "dog",
+    "sex": "",
+    "dob": "",
+    "status": "available",
+    "photo": "images/nova.jpg",
+    "description": "Nova could not be cared for by her owner, so she was brought into Paws and Claws. Although cheerful and happy, Nova does have some underlying health issues that will need to be considered before adopting her. She does have hip dysplasia; now she can get around just fine, can go for relaxing walks, swims and she is happy chilling out in the air con. We are putting together a pain management plan which includes supplements for her so that she is as comfortable in herself as possible. Her new owner would have to be onboard with her ongoing pain relief. The amazing Dr Andy has been seeing Nova regularly, providing treatments such as shockwave therapy and laser therapy. I know it\u2019s a lot to take on but she is well worth it. Even though she had issues, we weren\u2019t able to say no to that face we knew we had to help her."
+  },
+  {
+    "id": "shirley",
+    "name": "Shirley (in foster care)",
+    "slug": "shirley",
+    "species": "cat",
+    "sex": "",
+    "dob": "",
+    "status": "available",
+    "photo": "images/shirley.jpg",
+    "description": "Shirley will take a bit of time to come around to you \u2013 however once she is comfortable with you she will be your best friend and the effort you put in to win her over will all be worth it. Her quirky and vocal personality will forever keep you amused."
   }
 ]
