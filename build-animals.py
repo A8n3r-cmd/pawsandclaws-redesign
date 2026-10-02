@@ -78,7 +78,7 @@ base = Path('index.html').read_text()
 header_start = base.find('<!-- Header -->')
 header_end = base.find('    <!-- Hero -->')
 footer_start = base.find('    <!-- Footer -->')
-body_end = base.find('</body>')
+body_end = base.find('</body>') + len('</body>')
 
 base_header = base[header_start:header_end]
 base_footer = base[footer_start:body_end]
@@ -102,9 +102,18 @@ if 'Adoptable pets' not in base_header:
 # ---------------------------------------------------------------------------
 for path in Path('.').glob('*.html'):
     content = path.read_text()
-    content = re.sub(r'<header class="sticky.*?</header>', base_header, content, flags=re.DOTALL, count=1)
+    content = re.sub(r'<!-- Header -->.*?</header>', base_header, content, flags=re.DOTALL, count=1)
     content = re.sub(r'<!-- Footer -->.*?</body>', base_footer, content, flags=re.DOTALL, count=1)
     content = content.replace('https://pawsandclaws.org.au/adoptions/', 'adoptions/')
+    content = content.replace('https://pawsandclaws.org.au/adoption/', 'adoption.html')
+    content = content.replace('https://pawsandclaws.org.au/boarding-center/', 'boarding.html')
+    content = content.replace('https://pawsandclaws.org.au/cattery/', 'cattery.html')
+    content = content.replace('https://pawsandclaws.org.au/volunteer/', 'volunteer.html')
+    content = content.replace('https://pawsandclaws.org.au/the-charity-shop/', 'charity-shop.html')
+    content = content.replace('https://pawsandclaws.org.au/surrender/', 'surrender.html')
+    content = content.replace('https://pawsandclaws.org.au/donations/', 'donate.html')
+    content = content.replace('https://pawsandclaws.org.au/pet-category/cats/', 'adoptions/')
+    content = content.replace('https://pawsandclaws.org.au/pet-category/dogs/', 'adoptions/')
     content = content.replace('href="adoption.html"', 'href="adoptions/"')
     path.write_text(content)
     print(f'Updated header, footer and links: {path.name}')
